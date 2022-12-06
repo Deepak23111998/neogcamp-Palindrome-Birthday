@@ -1,16 +1,3 @@
-// palindrome birthday
-// Take your user's birthday
-// Tell whether user was born on a palindrome day or not.
-// You can put dates in MM/DD/YYYY format, DD/MM/YYYY, MM/DD/YY format etc. to check if they have any chance.
-// If not, then tell them what is the nearest date from their birthdate which is a palindrome date.
-// Tell them by how many days they missed it.
-// bonus
-// show a gif when you're doing the calculation to show that numbers are being crunched.
-// problem with this is that it will not slow your computer, explore setTimeout in JS to produce an artificial delay.
-
-// This app checks your birthdate in 4 formats yyyy-mm-dd, dd-mm-yyyy, mm-dd-yy, m-dd-yyyy
-// e.g. if your birthdate is 01 Aug 1995, then app will check for 19950801, 01081995, 080195, 1081995
-
 var birthDateInput = document.querySelector('#birth-date')
 var checkButton = document.querySelector('#check')
 var result = document.querySelector('#result')
@@ -23,9 +10,6 @@ var monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 function loadingState() {
   setTimeout(function () {
-    // console.log('running from setTimeout')
-    // console.log(mainApp)
-    // console.log(loadingImg)
     loadingImg.style.display = 'none'
     finalResult.style.display = 'block'
   }, 3000)

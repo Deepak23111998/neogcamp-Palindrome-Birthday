@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #b760ea;
-  --secondary-color: #a24bdb;
-  --tertiary-color: #392e6e;
-  --quaternary-color: #2b2256;
+  --primary-color: #51EFD9;
+  --secondary-color: #394BF2;
+  --tertiary-color: #394BF2;
+  --quaternary-color: #394BF2 ;
 }
 
 body {
